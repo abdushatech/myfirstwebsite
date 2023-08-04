@@ -5,7 +5,7 @@ hamburger.addEventListener("click", () => {
   mobileNavs.classList.toggle("active")
 })
 
-<!... read more js-->
+<!-- read more js-->
   <script>
 function myFunction() {
   var dots = document.getElementById("dots");
