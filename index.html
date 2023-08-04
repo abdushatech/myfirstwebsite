@@ -276,7 +276,7 @@
               Evidence of history tells us how Neanderthals used stones to burn fire to cook food and so on. Wood was used to make spears, which were used to hunt animals and other primitive methods. 
               Then, over the years, these techniques developed gradually until we reached the peak of technological advances in the present day. 
               Where technology knocked on the doors of people and broke into their homes without permission. So what are the most significant changes that technology has brought to our modern lives?<br><br><br>
-              
+              <span id="dots">...</span><span id="more">
               How Important Technology is in Our Daily Lives?<br><br>
               There is no doubt that we are experiencing tremendous development in technology. This technology has had a negative or positive impact on our life. As a result, it has influenced the way we live and we rely heavily on it. Humans continue to evolve continuously. 
               Technology will not stop at a single threshold, but we still hear daily discoveries and inventions by scientists. Technology has spread all over the world and people use it all the time. 
@@ -353,7 +353,24 @@
               
               ➣The technology achieves a high degree of competition between companies or institutions and provides a number of mechanisms to help, including marketing and selling online, as well as communicating with the right customers in the right place and time.<br><br>
               
-              ➣Technology facilitates communication between co-workers or even with customers and consumers.<br><br></p>
+              ➣Technology facilitates communication between co-workers or even with customers and consumers.</span><br><br> <button onclick="myFunction()" id="myBtn">Read more</button></p>
+              <script>
+                function myFunction() {
+                  var dots = document.getElementById("dots");
+                  var moreText = document.getElementById("more");
+                  var btnText = document.getElementById("myBtn");
+                
+                  if (dots.style.display === "none") {
+                    dots.style.display = "inline";
+                    btnText.innerHTML = "Read more"; 
+                    moreText.style.display = "none";
+                  } else {
+                    dots.style.display = "none";
+                    btnText.innerHTML = "Read less"; 
+                    moreText.style.display = "inline";
+                  }
+                }
+                </script>
           </div>
           <div class="card">
             <!--
