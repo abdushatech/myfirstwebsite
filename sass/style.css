@@ -856,7 +856,7 @@ input[type=submit] {
 /*style the Divi blog link text as a button*/
 
 .blogs {
-  color: #ffffff;
+  color: ##000000;
 	background: hwb(242 0% 89%);
 	border: 2px solid #a7c3e6;
 	padding: .7em 1.3em;
@@ -869,13 +869,33 @@ input[type=submit] {
 
 /*style the Divi blog link text as a button on hover*/
 
-.blogs:hover {
+.blogs: hover {
 	background: transparent;
 	color: #0070fc;
 	border: 2px solid #0070fc;
 	transition: all 0.3s ease-in-out;
 }
+/*style for testimoniah hover*/
+.testimonial--content {
+  color: black;
+	background: hwb(0 100% 0%);
+	border: 2px solid #a7c3e6;
+	padding: .7em 1.3em;
+	margin-top: 20px;
+	border-radius: 50px;
+	text-transform: capitalize;
+	display: inline-block;
+	transition: all 0.3s ease-in-out;
+}
 
+/*style the Divi blog link text as a button on hover*/
+
+.testimonial--content:hover {
+	background: transparent;
+	color: #0070fc;
+	border: 2px solid #0070fc;
+	transition: all 0.3s ease-in-out;
+}
 
 
 
