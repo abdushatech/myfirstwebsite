@@ -852,13 +852,12 @@ input[type=submit] {
 
 
 
-
 /*style the Divi blog link text as a button*/
 
 .blogs {
-  color:#000000;
-	background:white(0 81% 12%);
-	border: 2px solid #a7c3e6;
+  color: #ffffff;
+	background: #0071fc;
+	border: 2px solid #0070fc;
 	padding: .7em 1.3em;
 	margin-top: 20px;
 	border-radius: 50px;
@@ -866,16 +865,13 @@ input[type=submit] {
 	display: inline-block;
 	transition: all 0.3s ease-in-out;
 }
-<!--
-/*style the Divi blog link text as a button on hover*/
 
 .blogs:hover {
 	background: transparent;
-	color: #8ca47f;
+	color: #0070fc;
 	border: 2px solid #0070fc;
 	transition: all 0.3s ease-in-out;
 }
--->
 
 .testimonial--content {
   color: black;
