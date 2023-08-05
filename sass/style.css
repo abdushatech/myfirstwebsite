@@ -856,7 +856,7 @@ input[type=submit] {
 /*style the Divi blog link text as a button*/
 
 .blogs {
-  color: white;
+  color: #ffffff;
 	background: hwb(0 100% 0%);
 	border: 2px solid #a7c3e6;
 	padding: .7em 1.3em;
