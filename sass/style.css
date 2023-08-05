@@ -866,7 +866,7 @@ input[type=submit] {
 	display: inline-block;
 	transition: all 0.3s ease-in-out;
 }
-<!--
+
 /*style the Divi blog link text as a button on hover*/
 
 .blogs:hover {
@@ -875,7 +875,7 @@ input[type=submit] {
 	border: 2px solid #0070fc;
 	transition: all 0.3s ease-in-out;
 }
--->
+
 
 
 
