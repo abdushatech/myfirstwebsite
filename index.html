@@ -332,5 +332,24 @@
 
   </footer>
   <script src="js/script.js"></script>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const hamburgerButton = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburgerButton.addEventListener('click', function () {
+      navLinks.classList.toggle('show');
+    });
+  });
+</script>
+
+
+
+
+
+
+  
 </body>
 </html>
