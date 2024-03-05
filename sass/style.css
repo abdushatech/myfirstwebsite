@@ -910,6 +910,24 @@ button{
   color:white;
   font-family:cursive;
   box-sizing:border-box;
+
+
+
+
+.nav-links {
+  display: none; /* Initially hide the navigation menu */
+}
+
+.nav-links.show {
+  display: block; /* Show the navigation menu when 'show' class is present */
+}
+
+
+
+
+
+
+	
 }
 
 
